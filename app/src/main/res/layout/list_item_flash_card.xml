@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/flashPic"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/placeholder"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:id="@+id/texts"
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/miwokText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="lutti"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/englishText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="one" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/playButton"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingTop="24dp"
+        android:paddingRight="16dp"
+        android:paddingLeft="24dp"
+        android:paddingBottom="24dp"
+
+
+        android:src="@drawable/ic_play_arrow_black_24dp"/>
+</LinearLayout>
